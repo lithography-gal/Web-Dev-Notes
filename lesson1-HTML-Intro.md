@@ -59,3 +59,39 @@
 
 - A perfect example of this is the "img" tag, which does not use a closing tag to denote the element. This is because an image doesn't wrap conent to affect it, but rather embeds an image to the page.
   
+# First Website
+
+- According to CHatGPT, the *index.html* serves an important role in web development.
+  1. Default Homepage in a Directory
+  2. Standard Naming convention; *most websites use index.html as the main entry point*
+  3. Easier File Organization; *browsers automatically load where an index.html is present
+  4. Overall good practice; index.html is a great way to structure content for static sites.
+
+ -Here's a basic start to an index.html file: 
+
+ ```
+ <!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>My test page</title>
+  </head>
+  <body>
+    <p><strong>Hello World!</strong></p>
+  </body>
+
+```
+
+- `<!doctype html>` is a required preamble; it makes sure your document behaves correctly.
+- `<html></html>` wraps all the content on the page; also known as the *root element*
+  - this also includes the `lang` attribute, which sets the language of the document. In this case, to US English.
+- `<head></head>` Contains all the stuff that you **aren't** showing to your viewers.
+- `<meta name="viewport" content="width=device-width">` ensures that the page renders at the width of the viewport, in this case rendering at the width of the device (ie shrinks for mobile viewing)
+- `<title></title>` This sets the title of your page (*pretty self explanatory, huh?*)
+- `<body></body>` This contains **ALL** content that you want to show to web users visiting your page.
+  - In this case, if you visited this page you'd see "Hello, World!" displayed in bold.
+
+**This is just *some* of the syntax for HTML.** 
+
+
